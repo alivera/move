@@ -1,0 +1,148 @@
+html, body {
+  margin: 0;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* Main */
+.main {
+  height: 600px;
+  background: url("http://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.main h1 {
+  font-size: 200px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  display: inline;
+  margin: 25%;
+}
+
+.main p {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+
+/* Supporting */
+.supporting {
+  text-align: center;
+  padding: 50px 0 80px;
+  background-color: #1c1c1c;
+}
+
+.supporting .col {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+/* did not use this button class */
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+}
+
+/* Feature */
+.feature {
+  height: 600px;
+  background: url("http://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg")center no-repeat;
+  background-size: cover;
+}
+
+.feature h1,
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 22% 25%;
+  padding:50px 0 0;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/* Footer */
+.footer {
+  height: 600px;
+  background: url("http://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 30px;
+  margin: 0 0 20px 0;
+  padding: 250px 0 0;
+  text-align: center;
+}
+
+.footer p, h2 {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 2px 25px 2px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 42%;
+    font-size: 20px;
+}
+
+.button:hover {
+    color: silver;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    padding: 2px 25px 2px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.button2:hover {
+    color: silver;
+}
+
