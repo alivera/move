@@ -1,3 +1,11 @@
+@media(max-width: 769px) {
+body {
+      background: url("http://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg") center no-repeat;
+      background-size: cover;
+      height: 100%;
+    }
+}
+
 @media(min-width: 769px) {
 html, body {
   margin: 0;
