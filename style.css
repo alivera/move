@@ -1,3 +1,4 @@
+@media(min-width: 769px) {
 html, body {
   margin: 0;
 }
@@ -145,4 +146,4 @@ p {
 .button2:hover {
     color: silver;
 }
-
+}
